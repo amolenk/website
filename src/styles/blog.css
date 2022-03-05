@@ -1,34 +1,42 @@
-/* stylelint-disable selector-list-comma-newline-after */
+a {
+    color: #0072bc;
+}
 
+h2 {
+    padding-top: 1em;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
 
-
+h3 {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #292F33;
+}
 
 .blog-header {
-  line-height: 1;
-  border-bottom: 1px solid #e5e5e5;
+    background-image: url("../img/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: cover;
+    height: 500px;
 }
 
-
-background: url(https://sandermolenkamp.com//wp-content/uploads/2019/03/Banner.jpg) no-repeat scroll top;
-background-size: cover;
-
-background: #b0bec5;
-position: relative;
-width: 100%;
-margin-bottom: 3em;
-overflow: hidden;
-min-height: 120px;
-
-
-
-
-.blog-header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
-  font-size: 2.25rem;
-}
-
-.blog-header-logo:hover {
-  text-decoration: none;
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #727272;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+    margin-top: 2em;
 }
 
 .entry-header .entry-meta::after {
@@ -40,99 +48,10 @@ min-height: 120px;
     margin: 10px auto;
 }
 
-h2 {
-    padding-top: 1em;
-    font-family: 'Lato', sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 14px;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 36px;
-  letter-spacing: 2px;
+.sessionize-wrapper {
+    text-align: center;
 }
 
-
-.display-4 {
-  font-size: 2.5rem;
-}
-@media (min-width: 768px) {
-  .display-4 {
-    font-size: 3rem;
-  }
-}
-
-.nav-scroller {
-  position: relative;
-  z-index: 2;
-  height: 2.75rem;
-  overflow-y: hidden;
-}
-
-.nav-scroller .nav {
-  display: flex;
-  flex-wrap: nowrap;
-  padding-bottom: 1rem;
-  margin-top: -1px;
-  overflow-x: auto;
-  text-align: center;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-}
-
-.nav-scroller .nav-link {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  font-size: .875rem;
-}
-
-.card-img-right {
-  height: 100%;
-  border-radius: 0 3px 3px 0;
-}
-
-.flex-auto {
-  flex: 0 0 auto;
-}
-
-.h-250 { height: 250px; }
-@media (min-width: 768px) {
-  .h-md-250 { height: 250px; }
-}
-
-/* Pagination */
-.blog-pagination {
-  margin-bottom: 4rem;
-}
-.blog-pagination > .btn {
-  border-radius: 2rem;
-}
-
-/*
- * Blog posts
- */
-.blog-post {
-  margin-bottom: 4rem;
-}
-.blog-post-title {
-  margin-bottom: .25rem;
-  font-size: 2.5rem;
-}
-.blog-post-meta {
-  margin-bottom: 1.25rem;
-  color: #727272;
-}
-
-/*
- * Footer
- */
-.blog-footer {
-  padding: 2.5rem 0;
-  color: #727272;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
-}
-.blog-footer p:last-child {
-  margin-bottom: 0;
+.sz-caption {
+    display: none
 }
